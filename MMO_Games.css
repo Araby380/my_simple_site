@@ -1,0 +1,107 @@
+body {
+  background-color: #5555;
+  background: url("bluesocial.jpg") repeat fixed;
+  padding: 0;
+  margin: 0;
+  margin: 0px auto;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  align-items: center;
+  position: fixed;
+  width: 98%;
+}
+/*make the contact me on ===> unclickable*/
+
+.x {
+  pointer-events: none;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: lightskyblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: gray;
+  color: antiquewhite;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+/* design the side nav bar !!!!!!!! */
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -105px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: black; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#online {
+  top: 355px;
+  background-color: #4CAF50;
+}
+
+#telegram {
+  top: 430px;
+  background-color: #2196F3; /* Blue */
+}
+
+#twitter {
+  top: 505px;
+  background-color: #f44336; /* Red */
+}
+
+#popular {
+  top: 580px;
+  background-color: #555 /* Light Black */
+}
+
+          /* MMO_Games design */
+.best1 {
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 300px;
+  width: 500px;
+
+}
+
+.best1div {
+  background-color: blue;
+  width: 600px;
+  height: 1500px;
+  position: absolute;
+  left: 400px;
+  top: -200px;
+
+}
